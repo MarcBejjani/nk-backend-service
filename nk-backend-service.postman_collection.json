@@ -2,7 +2,7 @@
 	"variables": [],
 	"info": {
 		"name": "nk-backend-service",
-		"_postman_id": "b83d4aa1-2b43-65bd-113b-c00e4db32b6c",
+		"_postman_id": "03e369dc-6ddb-c922-eb36-a2c92ba1ffff",
 		"description": "",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
@@ -14,7 +14,7 @@
 				{
 					"name": "Get All Persons",
 					"request": {
-						"url": "http://{{GATEWAY_SRV_HOST}}:{{GATEWAY_SRV_PORT}}/backend/persons",
+						"url": "http://{{BACKEND_HOST}}:{{BACKEND_PORT}}/backend/persons",
 						"method": "GET",
 						"header": [],
 						"body": {
@@ -28,7 +28,7 @@
 				{
 					"name": "Create Person",
 					"request": {
-						"url": "http://{{GATEWAY_SRV_HOST}}:{{GATEWAY_SRV_PORT}}/person",
+						"url": "http://{{BACKEND_HOST}}:{{BACKEND_PORT}}/person",
 						"method": "POST",
 						"header": [],
 						"body": {
@@ -42,13 +42,13 @@
 				{
 					"name": "Delete Person",
 					"request": {
-						"url": "http://{{GATEWAY_SRV_HOST}}:{{GATEWAY_SRV_PORT}}/backend/person/840110",
+						"url": "http://{{BACKEND_HOST}}:{{BACKEND_PORT}}/backend/person/840110",
 						"method": "DELETE",
 						"header": [
 							{
 								"key": "authorization",
 								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIiwiaXNBY3RpdmUiOnRydWUsImlzQWRtaW4iOnRydWUsInBlcnNvbklkIjoiODQwMDI2IiwiZGF0ZSI6IjIwMjAtMDctMzBUMTM6MzU6MDkuNjc4WiJ9LCJpYXQiOjE1OTYxMTYxMDksImV4cCI6MTU5NjExOTcwOX0.jdPL1_Nh3VgpauyreRasVpJ9REC9lCltiowdZwmUAt4",
-								"type": "text"
+								"description": ""
 							}
 						],
 						"body": {
