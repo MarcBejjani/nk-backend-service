@@ -2,7 +2,7 @@
 	"variables": [],
 	"info": {
 		"name": "nk-backend-service",
-		"_postman_id": "03e369dc-6ddb-c922-eb36-a2c92ba1ffff",
+		"_postman_id": "c017fb69-052d-14fa-a20d-e32db77d7c27",
 		"description": "",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
@@ -33,7 +33,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\t\"firstName\": \"person\",\n\t\"lastName\": \"El Khoury\",\n\t\"age\": 29,\n\t\"isAdmin\": false,\n\t\"email\": \"person@gmail.com\",\n\t\"password\": \"12345678\",\n\t\"dob\": \"1991-06-10\"\n}"
+							"raw": "{\n\t\"firstName\": \"Jhon\",\n\t\"lastName\": \"Doe\",\n\t\"age\": 29,\n\t\"isAdmin\": false,\n\t\"email\": \"jhondoe@gmail.com\",\n\t\"password\": \"somepassword\",\n\t\"dob\": \"1982-03-06\"\n}"
 						},
 						"description": ""
 					},
